@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health is Wealth</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  
+    <!--
+    Create a new website using HTML and Bootstrap. 
+    The website must include the following:
+    At least 2 pages. check
+    A Bootstrap navbar(check), table (check), and form (check).
+    Bootstrap grid used throughout to format elements (check)
+    Elements should stack vertically when the window is small (check)--->
+</head>
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light" style= "background-color: rgb(97, 161, 97)">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">HiW.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Training
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="Legs.html">Legs</a></li>
+              <li><a class="dropdown-item" href="Arms.html">Arms</a></li>
+              <li><a class="dropdown-item" href="Core.html">Core</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Recipes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming Soon</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id= "search-button" class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--welcome grid-->
+  <div class="container px-4 mt-5 mb-5">
+    <div class="row">
+      <div class="col-md p-3">
+        <img src="pictures/profile pic.jpeg" class="img.fluid">
+      </div>
+      <div class="col-md p-3 fs-5 text-center">
+        Welcome to Health is Wealth fitness!
+        Our mission is to empower women through fitness and nutrition. 
+        We aim to help you make healthy decisions that fit your daily life. We offer personalized workout and diet plans,as well as a safe space to share your struggles.
+      </div>
+      <div class="col-md p-3">
+        <img src="pictures/profile pic.jpeg" class="img.fluid">
+      </div>
+    </div>
+  </div>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+<div class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000" >
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="pictures/arms1.jpeg" class="mx-auto d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="pictures/core.jpeg" class="mx-auto d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="pictures/legs3.jpeg" class="mx-auto d-block w-50" alt="...">
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

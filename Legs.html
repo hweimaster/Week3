@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legs</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<!---Nav bar-->
+<nav class="navbar navbar-expand-lg navbar-light" style= "background-color: rgb(97, 161, 97)">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">HiW.com</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Training
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Legs.html">Legs</a></li>
+            <li><a class="dropdown-item" href="Arms.html">Arms</a></li>
+            <li><a class="dropdown-item" href="Core.html">Core</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Recipes</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming Soon</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button id= "search-button" class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--grid to contain the header expanation-->
+<div class="container px-4 mt-5 mb-5 bg-light">
+  <div class="row">
+    <div class="col-lg">
+    </div>
+    <div class="col-lg text-center">
+      Here's an example of a Leg workout we offer in our programs!
+      Make sure to challenge yourself with each rep!
+    </div>
+    <div class="col-lg">
+    </div>
+  </div>
+</div>
+<!--Table of exercises-->
+<table class="table table-striped mt-5">
+  <thead>
+    <tr class="text-center">
+      <th scope="col">Exercise</th>
+      <th scope="col">Rep</th>
+      <th scope="col">Set</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="text-center" >
+      <th scope="row">Goblet Squats</th>
+      <td>15</td>
+      <td>3</td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">Lunges with Weights</th>
+      <td>20</td>
+      <td>3</td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">Single Leg Deadlift</th>
+      <td>15 each side</td>
+      <td>3</td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">Hip Thrusts</th>
+      <td>20</td>
+      <td>3</td>
+    </tr>
+    <tr class="text-center">
+      <th scope="row">Donkey Kicks</th>
+      <td>30 sec</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
